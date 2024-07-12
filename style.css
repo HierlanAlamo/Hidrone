@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+* {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(8, 8, 8);
+}
+#servicos {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#servicos h1 {
+    color: white;
+    position: absolute;
+    margin-top: -600px;
+    margin-left: 100px;
+    font-size: 27px;
+}
+
+#servicos h2 {
+    color: white;
+    position: absolute;
+    margin-top: -480px;
+    margin-left: 100px;
+    width: 480px;
+    text-align: justify
+}
+
+#somos {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#somos h1{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin-top: -640px;
+    margin-left: 700px;
+    font-size: 27px;
+}
+
+#somos h2{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin-top: -540px;
+    margin-left: 700px;
+    width: 480px;
+    text-align: justify;
+
+}
+
+#contato {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contato h1{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin-top: -790px;
+    margin-left: 100px;
+    font-size: 27px;
+}
+
+#contato h2{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin-top: -690px;
+    margin-left: 100px;
+    width: 480px;
+    text-align: justify;
+
+}
+#navbar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+#navbar ul li {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#navbar ul li a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: rgb(0, 0, 0); /* Garante que o texto fique branco */
+}
+
+#texto_topo {
+    position: absolute; /* Garante que o posicionamento z-index funcione */
+    z-index: 4; /* Eleva o texto_topo acima do navbar */
+    margin-top: -680px; /* Ajusta a margem superior para posicionar acima do navbar */
+    margin-left: 970px; /* Margem à esquerda */
+}
+
+#texto_topo p {
+    margin-top: -60px;
+}
+
+#linha_do_meio {
+    position: relative; /* Garante que o posicionamento z-index funcione */
+    z-index: 3; /* Eleva o texto_topo acima do navbar */
+    margin-top: -35px; /* Ajusta a margem superior para posicionar acima do navbar */
+    margin-left: 50%; /* Margem à esquerda */
+    width: 10px;
+}
+
+#linha_do_meio p{
+    margin-top: 10px;
+}
+
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar ul li a:hover{
+    color: yellow;
+}
+
+
+p:hover {
+    color: yellow;
+}
+
+p:blank {
+    border: 3px solid yellowgreen;
+}
+
+.imagem-topo {
+    position: absolute;
+    top: 0;
+    left: 47%;
+    margin-top: 10px;
+    transform: translateX(-50%);
+    z-index: 1; /* Coloca a imagem acima do navbar */
+    width: 40px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+    border-radius: 50%; /* Borda arredondada para a imagem */
+    border: 2px solid white; /* Borda branca ao redor da imagem */
+}
+
+.imagem-topo2 {
+    position: absolute;
+    top: 0;
+    margin-top: 10px;
+    left: 53%;
+    transform: translateX(-50%);
+    z-index: 1; /* Coloca a imagem acima do navbar */
+    width: 40px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+    border-radius: 50%; /* Borda arredondada para a imagem */
+    border: 2px solid white; /* Borda branca ao redor da imagem */
+}
+
+main {
+    background-color: brown;
+    width: 600px;
+    margin: auto;
+}
+
+video {
+    display: flex;
+    height: 50vh; 
+    margin-left: 410px;
+}
+
+body {
+    text-align: justify;
+    background-image: linear-gradient(to right, white, skyblue);
+}
